@@ -1,0 +1,18 @@
+# Clash Royale Emote Detector Dependencies
+
+# Core libraries
+opencv-python>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+
+# Emotion detection
+fer==22.5.1
+
+# Audio playback
+pygame>=2.5.0
+
+# Deep learning backend (required by FER)
+tensorflow>=2.12.0,<2.16.0
+
+# Hand tracking
+mediapipe>=0.10.0
